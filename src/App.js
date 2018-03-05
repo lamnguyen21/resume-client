@@ -212,19 +212,19 @@ class SearchResume extends Component {
               </div>
               <div className="card-body">
                 <div className="d-flex flex-row">
-                  <div className="p-2">Name:</div>
+                  <div className="p-2 font-weight-bold">Name:</div>
                   <div className="p-2">{(this.state.resume || {}).name}</div>
                 </div>
                 <div className="d-flex flex-row">
-                  <div className="p-2">Current Job Title:</div>
+                  <div className="p-2 font-weight-bold">Current Job Title:</div>
                   <div className="p-2">{this.mapJobTitle((this.state.resume || {}).jobTitle)}</div>
                 </div>
                 <div className="d-flex flex-row">
-                  <div className="p-2">Current Job Title Description:</div>
+                  <div className="p-2 font-weight-bold">Current Job Title Description:</div>
                   <div className="p-2">{(this.state.resume || {}).jobDesc}</div>
                 </div>
                 <div className="d-flex flex-row">
-                  <div className="p-2">Current Company:</div>
+                  <div className="p-2 font-weight-bold">Current Company:</div>
                   <div className="p-2">{(this.state.resume || {}).curCompany}</div>
                 </div>
               </div>
